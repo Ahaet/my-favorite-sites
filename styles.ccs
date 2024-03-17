@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#shortcutsGrid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.shortcut {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.shortcut img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.shortcut a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+#shortcutForm {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#shortcutForm input[type="text"] {
+    margin: 0 5px;
+}
+
+#shortcutForm button {
+    cursor: pointer;
+}
